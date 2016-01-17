@@ -221,6 +221,9 @@
           $cols4.css({ 'width': '25%' });
           $cols5.css({ 'width': '20%' });
 
+          // Account for the remaining 0.1% of a three element row
+          // Make the middle element slightly large to add up to 100%
+          $cols3.eq(1).css({ 'width': '33.4%' });
 
           var gutterVal = parseInt(options.gutter, 10);
           // Apply 50% gutter to left and right
