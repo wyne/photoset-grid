@@ -1,6 +1,6 @@
 {
   "name": "wyne-photoset-grid",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "jQuery plugin to arrange images into a flexible grid",
   "main": "jquery.photoset-grid.min.js",
   "dependencies": {
